@@ -39,5 +39,8 @@ export const createBooking = async (bookingData) => {
   }
 };
 
+const getUploadUrl = () => "/upload";
+
+export { getUploadUrl };
 // Default export for all existing imports
 export default { loginUser, fetchWorkers, createBooking };
